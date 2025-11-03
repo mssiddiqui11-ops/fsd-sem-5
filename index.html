@@ -1,33 +1,13 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Color Changing Bulb</title>
-  <style>
-    #bulb {
-      border: 2px solid black;
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      margin: 20px;
-      background-color: white; 
-    }
-  </style>
-  <script>
-    function colorHandle(color) {
-      const bulb = document.getElementById("bulb"); 
-      bulb.style.backgroundColor = color; 
-    }
-  </script>
-</head>
-<body>
-  <div id="bulb"></div> 
-
-  <input type="button" value="Red" onclick="colorHandle('red')">
-  <input type="button" value="Yellow" onclick="colorHandle('yellow')">
-  <input type="button" value="Green" onclick="colorHandle('green')">
-  <input type="button" value="Orange" onclick="colorHandle('orange')">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imageslider</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
